@@ -22,7 +22,7 @@ public class Calculator {
 	}
 
 	public Set<Integer> digitsSet(int number) {
-		Set<Integer> integers = new HashSet<Integer>();
+		Set<Integer> integers = new HashSet<>();
 		String numberString = String.valueOf(number);
 
 		for (int i = 0; i < numberString.length(); i++) {
@@ -33,4 +33,11 @@ public class Calculator {
 		return integers;
 	}
 
+	public double add(double a, double b) {
+		return a + b;
+	}
+	
+	public double multiply(double a , double b) {
+		return a * b ;
+	}
 }
